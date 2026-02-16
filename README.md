@@ -7,7 +7,7 @@ This project uses **computer vision + hand tracking** to control **LED colors on
  [Video Demonstration](https://www.tiktok.com/@rycuadra24/video/7599141356899929362?is_from_webapp=1&sender_device=pc&web_id=7600738001065346580)
 
 ---
-## How It Works
+### How It Works
 
 * OpenCV captures live video from your webcam
 * MediaPipe detects and tracks one hand
@@ -19,7 +19,7 @@ This project uses **computer vision + hand tracking** to control **LED colors on
 
 ---
 
-## Finger-to-Color Mapping
+### Finger-to-Color Mapping
 
 | Fingers Raised | Serial Command |
 | -------------- | -------------- |
@@ -34,7 +34,7 @@ The command is sent **only when the state changes**, preventing serial spam.
 
 ---
 
-## Requirements
+### Requirements
 
 ### Hardware
 
@@ -51,7 +51,7 @@ The command is sent **only when the state changes**, preventing serial spam.
 
 ---
 
-## Python Dependencies
+### Python Dependencies
 
 Python Version Requirement
 
@@ -77,7 +77,7 @@ pip install opencv-python mediapipe pyqt5 pyserial
 
 ---
 
-## Serial Configuration
+### Serial Configuration
 
 Edit these lines to match your setup:
 
@@ -90,7 +90,7 @@ Make sure the baud rate matches your microcontroller firmware.
 ---
 
 
-## Running the Program
+### Running the Program
 
 ```bash
 python main.py
@@ -103,15 +103,25 @@ What you should see:
 * Finger count + color text overlay
 * LEDs changing color in real time
 ---
-## Use Cases
+### Use Cases
 * Touchless LED control
 * Smart home demos
 * Human-machine interaction experiments
 * Computer vision learning projects
 * Thesis or capstone demos
 ---
-## License
-MIT License.
+### License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for full details.
+
+--- 
+
+### Author
+
+- Created with passion ❤ by: **Roy Cuadra**
+- Updated Date: 02-16-2026
+
 ---
-## Author
-- roycuadra 2026
+
+**Thank you for checking out this project!** 
+You are welcome to **fork**, **improve**, or **use** it for learning purposes.
