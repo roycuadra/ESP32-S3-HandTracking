@@ -1,6 +1,6 @@
 ## Esp32 S3 Hand Gesture RGB LED Controller
 
-This project uses **computer vision + hand tracking** to control **LED colors on a microcontroller** via **serial communication**. Your hand gestures (number of raised fingers) are detected using **MediaPipe**, displayed in a **PyQt5 GUI**, and translated into color commands sent to an Arduino (or any serial-capable MCU).
+This project uses **computer vision + hand tracking** to control **LED colors on a microcontroller** via **serial communication**. Your hand gestures (number of raised fingers) are detected using **MediaPipe**, displayed in a **PyQt5 GUI**, and translated into color commands sent to an Esp32 S3 Devkit
 
 ### Video Demo
 
