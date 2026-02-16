@@ -2,8 +2,11 @@
 
 This project uses **computer vision + hand tracking** to control **LED colors on a microcontroller** via **serial communication**. Your hand gestures (number of raised fingers) are detected using **MediaPipe**, displayed in a **PyQt5 GUI**, and translated into color commands sent to an Arduino (or any serial-capable MCU).
 
----
+## Video Demo
 
+ [Video Demonstration](https://www.tiktok.com/@rycuadra24/video/7599141356899929362?is_from_webapp=1&sender_device=pc&web_id=7600738001065346580)
+
+---
 ## How It Works
 
 * OpenCV captures live video from your webcam
@@ -83,26 +86,16 @@ What you should see:
 * Hand landmarks drawn on your hand
 * Finger count + color text overlay
 * LEDs changing color in real time
-
-
 ---
-
 ## Use Cases
-
 * Touchless LED control
 * Smart home demos
 * Human-machine interaction experiments
 * Computer vision learning projects
 * Thesis or capstone demos
-
 ---
-
 ## License
-
 MIT License.
-
 ---
-
 ## Author
-
 - roycuadra 2026
